@@ -166,7 +166,7 @@ const ContractDeployer = () => {
   return (
     <div className="container">
       <h2 className="title">Somnia Contract Deployer</h2>
-  
+      <Analytics />
       {/* Connect / Disconnect Wallet Button */}
       <div className="wallet-connect">
         {walletConnected ? (
